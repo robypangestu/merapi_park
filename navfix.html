@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>nav</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: #000;
+        }
+        header{
+            padding: 10px 100px;
+            box-sizing: border-box;
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+        }
+        section.sec1{
+            background: url('img/bg1.JPG')#00000040;
+            background-blend-mode: multiply;
+            background-size: cover;
+        }
+        section.sec2{
+            padding: 100px;
+            box-sizing: border-box;
+            height: auto;
+        }
+        section.sec2 h2{
+            font-size: 3em;
+            margin: 0;
+            padding: 0 0 20px;
+            color: #fff;
+        }
+        section.sec2 p{
+            font-size: 1.2em;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        section.sec3{
+            background: url('img/bg6.JPG');
+            background-size: cover;
+        }
+        nav{
+            width: 100%;
+            height: 50px;
+            background: rgba(0, 0, 0, .8);
+            border-top: 1px solid rgba(255, 255, 255, .2);
+            border-bottom: 1px solid rgba(255, 255, 255, .2);
+            position: sticky;
+            top: 0;
+        }
+        nav ul{
+            display: flex;
+            margin: 0;
+            padding: 0px 100px;
+            float: right;
+        }
+        nav ul li{
+            list-style: none;
+        }
+        nav ul li a{
+            display: block;
+            color: #fff;
+            padding: 0 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 50px;
+        }
+        nav ul li a:hover,
+        nav ul li a.active{
+            background: #f00 ;
+        }
+    </style>
+</head>
+<body>
+    <header><img src="img/IG.png" alt=""></header>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+    <section class="sec1"></section>
+    <section class="sec2">
+        <h2>Halo semuanya</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia libero nisi pariatur velit atque molestiae, id, sed et illum quidem suscipit, officiis ut nesciunt adipisci delectus saepe harum. Inventore, voluptate!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nobis. Deleniti, nemo error? Deleniti exercitationem, aspernatur, ullam incidunt nulla nobis non accusamus aliquam perferendis pariatur esse quam illo quasi velit!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ullam veniam accusamus reprehenderit exercitationem non nulla, illum dicta praesentium minus, temporibus soluta debitis iste molestias magnam corrupti ut possimus cum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur perspiciatis ducimus. Eligendi, laborum delectus? Ex mollitia in eos recusandae obcaecati, labore architecto libero corporis explicabo, veritatis facere necessitatibus pariatur.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad officiis enim perspiciatis aliquid aut temporibus laudantium rerum! Eum numquam porro cum illum doloribus vitae, impedit sapiente, mollitia sequi saepe hic.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque placeat aperiam, deleniti exercitationem non fugiat officiis animi quibusdam, quos debitis autem inventore odit impedit eum? Iste vel ipsum harum porro.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsam porro enim recusandae odit labore nisi cum, doloribus, doloremque blanditiis eligendi molestias nam, totam dolorum delectus hic nostrum harum repellendus?
+        </p>
+    </section>
+    <section class="sec3"></section>
+</body>
+</html>
